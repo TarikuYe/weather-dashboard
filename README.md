@@ -15,7 +15,6 @@ A comprehensive, production-ready weather dashboard application built with React
 
 ### User Experience
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Dark/Light Mode**: Automatic theme detection with manual toggle
 - **Accessibility**: Screen reader compatible with keyboard navigation
 - **Error Handling**: Robust error handling for network issues and invalid locations
 - **Loading States**: Smooth loading indicators and transitions
@@ -38,7 +37,7 @@ A comprehensive, production-ready weather dashboard application built with React
 
 1. **Clone and install dependencies:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/TarikuYe/weather-dashboard
    cd weather-dashboard
    npm install
    ```
@@ -84,7 +83,6 @@ src/
 │   └── ApiKeySetup.tsx       # API configuration guide
 ├── hooks/                # Custom React hooks
 │   ├── useWeatherData.ts     # Weather data management
-│   └── useTheme.ts           # Theme management
 ├── services/             # External API services
 │   └── weatherApi.ts         # OpenWeatherMap API integration
 ├── types/                # TypeScript type definitions
